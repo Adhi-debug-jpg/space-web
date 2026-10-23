@@ -1,0 +1,64 @@
+
+body{
+    color: white;   
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    user-select: none;
+    font-size: 24px;
+}
+
+#hero{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDRodWpzY2NtMW9oNW95bGpqMDZhYnF0a3prZHJ0d2hmOGttczk3ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3q2Xl2Rd8wZfMCaI/giphy.gif");
+    background-size: cover;
+    background-position: 0%;
+    padding: 100px 0 200px;
+    text-shadow: 2px 2px 80px rgb(255, 255, 255); 
+    font-size: xx-large;
+    
+}
+
+h3{
+    color: black;
+    text-shadow: 0px px black;
+    text-shadow: -5px 5px 10px rgb(115, 115, 115);
+    font-size: xx-large;
+}
+
+.btn-apply{
+    background:#fafafa;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: large;
+    color: #000000;
+    padding: 5px 18px;
+    font-family: "Orbitron", sans-serif;
+    touch-action: manipulation;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    font-weight: 800;
+}
+
+.btn-apply:active{
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px 0px white;
+    top: 5px;
+    left: 5px;
+}
+
+@media (min-width: 768px) {
+  .btn-apply{
+    padding: 0.25em 0.75em;
+  }
+}
+
+.underline{
+    padding: 4px;
+    border-bottom: 4px solid white;
+}
